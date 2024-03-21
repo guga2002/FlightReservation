@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Webia.Entities
 {
     [Table("Reservations")]
-    [Index(nameof(PassengerName)]
+    [Index(nameof(PassengerName))]
     public class Reservation:AbstractEntity
     {
         [Column("Full_Name")]
